@@ -6,6 +6,6 @@ COPY Requirements.txt .
 
 RUN pip install -r Requirements.txt
 
-COPY ./src .    
+COPY ./src .   
 
-CMD ["python" , "./app.py"]
+CMD ["python" , "app.py"]
