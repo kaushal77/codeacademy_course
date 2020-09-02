@@ -55,6 +55,7 @@ class Annotation(db.Model):
         return '<Annotation {}-{}:{} >'.format(self.reviewer_id, self.book_id, self.text)
 
 db.create_all()
+import app_data
 import routes
 
 if __name__ == '__main__':

@@ -1,10 +1,10 @@
 from app import db, Book, Reader, Review, Annotation
 import os
 
-if os.path.exists('myDB.db'):
-  os.remove('myDB.db')
+# if os.path.exists('myDB.db'):
+#   os.remove('myDB.db')
   
-db.create_all()
+# db.create_all()
 
 r1 = Reader(id = 123, name = 'Ann', surname = 'Adams', email = 'ann.adams@example.com')
 r2 = Reader(id = 345, name = 'Sam', surname = 'Adams', email = 'sam.adams@example.edu')
